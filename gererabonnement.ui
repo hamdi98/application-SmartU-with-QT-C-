@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GererAbonnement</class>
+ <widget class="QFrame" name="GererAbonnement">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>951</width>
+    <height>771</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <widget class="QLabel" name="Rechercher">
+   <property name="geometry">
+    <rect>
+     <x>627</x>
+     <y>20</y>
+     <width>62</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Rechercher :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_7">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>20</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>695</x>
+     <y>20</y>
+     <width>49</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Type</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CIN</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QTableView" name="tableView_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>50</y>
+     <width>491</width>
+     <height>651</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>720</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Afficher</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>720</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Imprimer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>720</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Supprimer</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Pictures/empty_recycle_bin_by_brightknight.png</normaloff>../Pictures/empty_recycle_bin_by_brightknight.png</iconset>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>351</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Ajout d'abonnement</string>
+   </property>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>230</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Modifier</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../Pictures/flèche-de-cycle-renouvellement-écolo-1560x1502.png</normaloff>../Pictures/flèche-de-cycle-renouvellement-écolo-1560x1502.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_CIN">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>101</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_Type">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>140</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="maxVisibleItems">
+     <number>2</number>
+    </property>
+    <property name="maxCount">
+     <number>2</number>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mensuel</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Annuel</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pb_ajouter">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ajouter</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../Pictures/Male-user-add-icon.png</normaloff>../Pictures/Male-user-add-icon.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Type">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>141</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Type d'abonnement :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_CIN">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Carte d'identite :</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
